@@ -22,8 +22,8 @@ body {
 }
 
 .container {
-  /* display: flex;
-  justify-content: center; */
+  /* display: flex; */
+  /* justify-content: center; */
   width: 30rem;
   height: auto;
   background-color: white;
@@ -55,19 +55,11 @@ body {
 }
 
 img {
-  border-radius: 50%;
+  border-radius: 70%;
   width: 75px;
   height: 75px;
   margin: 10px;
-  object-fit: cover;
-}
-
-.name4,
-.name5 {
-  border-radius: 50%;
-  width: 100px;
-  height: 75px;
-  margin: 10px;
+  margin-left: 10px;
   object-fit: cover;
 }
 
@@ -87,6 +79,6 @@ img {
   width: 25rem;
 }
 
-/* .content-container {
-  display: none;
-} */
+li {
+  list-style: none;
+}
